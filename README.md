@@ -1,4 +1,7 @@
-## Проект «API для Yatube»
+### I. Русский язык.
+### II. English language.
+
+## I. Проект «API для Yatube»
 
 # Описание проекта.
 'API для Yatube' - это проект социальной сети. В котором есть возможность получения и редактирования постов, их комментариев, просмотр сообществ. Так же вы сможете подписаться на интересующего вас автора. В проекте используется JWT аутентификация.
@@ -7,18 +10,24 @@
 Клонировать репозиторий и перейти в него в командной строке:
 ```
 git clone https://github.com/yandex-praktikum/api_final_yatube.git
+```
+```
 cd api_final_yatube
 ```
 
 Cоздать и активировать виртуальное окружение:
 ```
 python3 -m venv env
+```
+```
 source env/bin/activate
 ```
 
 Установить зависимости из файла requirements.txt:
 ```
 python3 -m pip install --upgrade pip
+```
+```
 pip install -r requirements.txt
 ```
 
@@ -40,7 +49,7 @@ python3 manage.py runserver
 
 
 
-## The 'API for Yatube' project
+## II. The 'API for Yatube' project
 
 # Description of the project.
 'API for Yatube' is a social network project. In which it is possible to receive and edit posts, their comments, and view communities. You can also subscribe to the author you are interested in. The project uses JWT authentication.
@@ -49,18 +58,24 @@ python3 manage.py runserver
 Clone the repository and go to it on the command line:
 ```
 git clone https://github.com/yandex-praktikum/api_final_yatube.git
+```
+```
 cd api_final_yatube
 ```
 
 Create and activate a virtual environment:
 ```
 python3 -m venv env
+```
+```
 source env/bin/activate
 ```
 
 Install dependencies from a file requirements.txt:
 ```
 python3 -m pip install --upgrade pip
+```
+```
 pip install -r requirements.txt
 ```
 
