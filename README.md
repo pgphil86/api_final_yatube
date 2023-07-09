@@ -12,7 +12,7 @@
 Clone the repository and go to it on the command line:
 '''
 git clone https://github.com/yandex-praktikum/api_final_yatube.git
-cd kittygram
+cd api_final_yatube
 '''
 Cоздать и активировать виртуальное окружение:
 Create and activate a virtual environment:
