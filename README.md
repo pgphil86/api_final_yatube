@@ -10,29 +10,38 @@
 Клонировать репозиторий и перейти в него в командной строке:
 # Project installation.
 Clone the repository and go to it on the command line:
+
 '''
 git clone https://github.com/yandex-praktikum/api_final_yatube.git
 cd api_final_yatube
 '''
+
 Cоздать и активировать виртуальное окружение:
 Create and activate a virtual environment:
+
 '''
 python3 -m venv env
 source env/bin/activate
 '''
+
 Установить зависимости из файла requirements.txt:
 Install dependencies from a file requirements.txt:
+
 '''
 python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 '''
+
 Выполнить миграции:
 Perform migrations:
+
 '''
 python3 manage.py migrate
 '''
+
 Запустить проект:
 Launch a project:
+
 '''
 python3 manage.py runserver
 '''
