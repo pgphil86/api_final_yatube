@@ -1,5 +1,5 @@
 ### Hi there. This is project 'Api for Yatube' from Pavel.
-![image]({https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue})
+<p>![image]({https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue})</p>
 
 
 
