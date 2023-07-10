@@ -167,6 +167,7 @@ For example, getting information about a community by id:
 http://127.0.0.1:8000/api/v1/groups/{id}/
 ```
 1. Subscribe to the publications of other users of the project. And view other subscribers.
+
 For example, a user subscribing to a user contained in the request:
 ```
 http://127.0.0.1:8000/api/v1/follow/
