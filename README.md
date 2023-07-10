@@ -1,6 +1,7 @@
 ### Hi there. This is project 'Api for Yatube' from Pavel.
 ![image](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pgphil86&theme=dark)
-![image](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white)
+
+![image](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
 ### I. Русский язык.
 ### II. English language.
