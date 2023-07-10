@@ -7,10 +7,10 @@ https://github.com/pgphil86
 ![image](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
 ### Languages:
-### I. [Русский язык.] [1]
+### I. Русский язык. <https://github.com/pgphil86/api_final_yatube#1-i-проект-api-для-yatube>
 ### II. English language.
 
-## [1]: I. Проект «API для Yatube»
+## I. Проект «API для Yatube»
 
 ### Описание проекта.
 'API для Yatube' - это проект социальной сети. В котором есть возможность получения и редактирования постов, их комментариев, просмотр сообществ. Так же вы сможете подписаться на интересующего вас автора. В проекте используется JWT аутентификация. 
