@@ -1,4 +1,4 @@
-### Hi there. This is project 'Api for Yatube' from Pavel.
+# Hi there. This is project 'Api for Yatube' from Pavel.
 ```
 https://github.com/pgphil86
 ```
@@ -12,12 +12,12 @@ https://github.com/pgphil86
 
 ## I. Проект «API для Yatube»
 
-# Описание проекта.
+### Описание проекта.
 'API для Yatube' - это проект социальной сети. В котором есть возможность получения и редактирования постов, их комментариев, просмотр сообществ. Так же вы сможете подписаться на интересующего вас автора. В проекте используется JWT аутентификация. 
 
 В проекте используются: Python 3.9, Django 3.2.16, Django Rest Framework (DRF) 3.12.4.
 
-# Установка проекта.
+### Установка проекта.
 Клонировать репозиторий и перейти в него в командной строке:
 ```
 git clone https://github.com/yandex-praktikum/api_final_yatube.git
@@ -52,7 +52,7 @@ python3 manage.py migrate
 python3 manage.py runserver
 ```
 
-# Примеры возможностей проекта.
+### Примеры возможностей проекта.
 1. Создание, редактирование и удаление публикаций. Получение списка публикаций.
 1. Просмотр сообществ и их списков.
 1. Добавление комментария к публикации. Просмотр всех комментариев к публикации.
@@ -62,12 +62,12 @@ python3 manage.py runserver
 
 ## II. The 'API for Yatube' project
 
-# Description of the project.
+## Description of the project.
 'API for Yatube' is a social network project. In which it is possible to receive and edit posts, their comments, and view communities. You can also subscribe to the author you are interested in. The project uses JWT authentication.
 
 The project uses: Python 3.9, Django 3.2.16, Django Rest Framework (DRF) 3.12.4.
 
-# Project installation.
+## Project installation.
 Clone the repository and go to it on the command line:
 ```
 git clone https://github.com/yandex-praktikum/api_final_yatube.git
@@ -102,7 +102,7 @@ Launch a project:
 python3 manage.py runserver
 ```
 
-# Examples of project features.
+## Examples of project features.
 1. Creating, editing and deleting publications. Getting a list of publications.
 1. View communities and their lists.
 1. Adding a comment to the publication. View all comments to the publication.
