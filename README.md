@@ -58,7 +58,7 @@ python3 manage.py runserver
 1. Добавление комментария к публикации. Просмотр всех комментариев к публикации.
 1. Подписка на публикации других пользователей проекта. И просмотр других подписчиков.
 
-*Первый пример, GET-запрос, при котором получаем список публикаций:
+*Первый пример, GET-запрос, при котором получаем список публикаций:*
 ```
 http://127.0.0.1:8000/api/v1/posts/
 ```
@@ -71,9 +71,9 @@ http://127.0.0.1:8000/api/v1/posts/
         "group": null,
         "pub_date": "2023-07-10T20:11:54.322377Z"
     }
-]*
+]
 
-Второй пример, POST-запрос, позволяющий добавить новый комментарий к публикации:
+*Второй пример, POST-запрос, позволяющий добавить новый комментарий к публикации:*
 ```
 http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/
 ```
@@ -85,12 +85,12 @@ http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/
     "created": "2023-07-10T20:13:55.284220Z"
 }
 
-Третий пример, получение информации о сообществе по id:
+*Третий пример, получение информации о сообществе по id:*
 ```
 http://127.0.0.1:8000/api/v1/groups/{id}/
 ```
 
-Четвёртый пример, подписка пользователя на пользователя содержащегося в запросе:
+*Четвёртый пример, подписка пользователя на пользователя содержащегося в запросе:*
 ```
 http://127.0.0.1:8000/api/v1/follow/
 ```
@@ -143,7 +143,7 @@ python3 manage.py runserver
 1. Adding a comment to the publication. View all comments to the publication.
 1. Subscribe to the publications of other users of the project. And view other subscribers.
 
-First example, a GET request in which we get a list of publications:
+*First example, a GET request in which we get a list of publications:*
 ```
 http://127.0.0.1:8000/api/v1/posts/
 ```
@@ -158,7 +158,7 @@ http://127.0.0.1:8000/api/v1/posts/
     }
 ]
 
-Second example, a POST request that allows you to add a new comment to a post:
+*Second example, a POST request that allows you to add a new comment to a post:*
 ```
 http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/
 ```
@@ -170,12 +170,12 @@ http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/
     "created": "2023-07-10T20:13:55.284220Z"
 }
 
-Third example, getting information about a community by id:
+*Third example, getting information about a community by id:*
 ```
 http://127.0.0.1:8000/api/v1/groups/{id}/
 ```
 
-Forth example, a user subscribing to a user contained in the request:
+*Forth example, a user subscribing to a user contained in the request:*
 ```
 http://127.0.0.1:8000/api/v1/follow/
 ```
