@@ -1,5 +1,5 @@
 ### Hi there. This is project 'Api for Yatube' from Pavel.
-```https://github-profile-trophy.vercel.app/?username={pgphil86}&theme={dark}```
+```https://github-profile-trophy.vercel.app/?username=pgphil86&theme=dark```
 
 
 
