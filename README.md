@@ -1,5 +1,5 @@
 ### Hi there. This is project 'Api for Yatube' from Pavel.
-https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F{pgphil86}1212%2Fhit-counter
+https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fpgphil861212%2Fhit-counter
 
 
 
