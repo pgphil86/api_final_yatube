@@ -1,5 +1,7 @@
 ### Hi there. This is project 'Api for Yatube' from Pavel.
+<p>
 <img src="{https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=pgphil86}" />
+</p>
 
 
 
