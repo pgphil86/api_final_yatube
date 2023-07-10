@@ -54,11 +54,42 @@ python3 manage.py runserver
 
 ### Примеры возможностей проекта.
 1. Создание, редактирование и удаление публикаций. Получение списка публикаций.
+Например, GET-запрос, при котором получаем список публикаций:
+```
+http://127.0.0.1:8000/api/v1/posts/
+```
+[
+    {
+        "id": 1,
+        "text": "string",
+        "author": "admin",
+        "image": null,
+        "group": null,
+        "pub_date": "2023-07-10T20:11:54.322377Z"
+    }
+]
 1. Просмотр сообществ и их списков.
+Например, POST-запрос, позволяющий добавить новый комментарий к публикации:
+```
+http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/
+```
+{
+    "id": 1,
+    "author": "admin",
+    "post": 1,
+    "text": "some_string",
+    "created": "2023-07-10T20:13:55.284220Z"
+}
 1. Добавление комментария к публикации. Просмотр всех комментариев к публикации.
+Например, получение информации о сообществе по id:
+```
+http://127.0.0.1:8000/api/v1/groups/{id}/
+```
 1. Подписка на публикации других пользователей проекта. И просмотр других подписчиков.
-
-
+Например, подписка пользователя на пользователя содержащегося в запросе:
+```
+http://127.0.0.1:8000/api/v1/follow/
+```
 
 ## II. The 'API for Yatube' project
 
@@ -104,6 +135,39 @@ python3 manage.py runserver
 
 ## Examples of project features.
 1. Creating, editing and deleting publications. Getting a list of publications.
+For example, a GET request in which we get a list of publications:
+```
+http://127.0.0.1:8000/api/v1/posts/
+```
+[
+    {
+        "id": 1,
+        "text": "string",
+        "author": "admin",
+        "image": null,
+        "group": null,
+        "pub_date": "2023-07-10T20:11:54.322377Z"
+    }
+]
 1. View communities and their lists.
+For example, a POST request that allows you to add a new comment to a post:
+```
+http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/
+```
+{
+    "id": 1,
+    "author": "admin",
+    "post": 1,
+    "text": "some_string",
+    "created": "2023-07-10T20:13:55.284220Z"
+}
 1. Adding a comment to the publication. View all comments to the publication.
+For example, getting information about a community by id:
+```
+http://127.0.0.1:8000/api/v1/groups/{id}/
+```
 1. Subscribe to the publications of other users of the project. And view other subscribers.
+For example, a user subscribing to a user contained in the request:
+```
+http://127.0.0.1:8000/api/v1/follow/
+```
