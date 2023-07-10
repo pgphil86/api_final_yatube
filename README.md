@@ -1,5 +1,5 @@
 ### Hi there. This is project 'Api for Yatube' from Pavel.
-![image](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username={username})
+![image](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={pgphil86}&theme={dark})
 
 
 
