@@ -10,7 +10,9 @@
 ## I. Проект «API для Yatube»
 
 # Описание проекта.
-'API для Yatube' - это проект социальной сети. В котором есть возможность получения и редактирования постов, их комментариев, просмотр сообществ. Так же вы сможете подписаться на интересующего вас автора. В проекте используется JWT аутентификация.
+'API для Yatube' - это проект социальной сети. В котором есть возможность получения и редактирования постов, их комментариев, просмотр сообществ. Так же вы сможете подписаться на интересующего вас автора. В проекте используется JWT аутентификация. 
+
+В проекте используются: Python 3.9, Django 3.2.16, Django Rest Framework (DRF) 3.12.4.
 
 # Установка проекта.
 Клонировать репозиторий и перейти в него в командной строке:
@@ -59,6 +61,8 @@ python3 manage.py runserver
 
 # Description of the project.
 'API for Yatube' is a social network project. In which it is possible to receive and edit posts, their comments, and view communities. You can also subscribe to the author you are interested in. The project uses JWT authentication.
+
+The project uses: Python 3.9, Django 3.2.16, Django Rest Framework (DRF) 3.12.4.
 
 # Project installation.
 Clone the repository and go to it on the command line:
