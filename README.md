@@ -95,6 +95,8 @@ http://127.0.0.1:8000/api/v1/groups/{id}/
 http://127.0.0.1:8000/api/v1/follow/
 ```
 
+[Вверх](https://github.com/pgphil86/api_final_yatube#hi-there-this-is-project-api-for-yatube-from-pavel)
+
 ## II. The 'API for Yatube' project
 
 ## Description of the project.
@@ -179,3 +181,5 @@ http://127.0.0.1:8000/api/v1/groups/{id}/
 ```
 http://127.0.0.1:8000/api/v1/follow/
 ```
+
+[Up](https://github.com/pgphil86/api_final_yatube#hi-there-this-is-project-api-for-yatube-from-pavel)
